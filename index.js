@@ -1,8 +1,8 @@
 ///////////////Menu Items (MVP)///////////////////
 
-const latte = { name: "Cafe Latte", price: 4, category: "Drinks" };
-const burger = { name: "Burger", price: 18, category: "Lunch" };
-const breakfastBurrito = { name: "Breakfast Burrito", price: 16, category: "Breakfast" };
+// const latte = { name: "Cafe Latte", price: 4, category: "Drinks" };
+// const burger = { name: "Burger", price: 18, category: "Lunch" };
+// const breakfastBurrito = { name: "Breakfast Burrito", price: 16, category: "Breakfast" };
 
 /* Task 1a: write a function to return more menu items with the same format as the items above. */
 
@@ -50,13 +50,15 @@ const reviews = [{ name: "Daniela", rating: 5, feedback: "Beautiful atmosphere a
 ]
 
 /* Task 3: Console.log just Julius' feedback */
-
+// console.log(reviews[5].feedback);
 
 /* Task 4: Add a new rating with your (fictitious) opinions of the restaurant in the same format as the reviews above. */
+// reviews.push({ name: "Jonah", rating: 5, feedback: "I really enjoyed the food here; the best I've ever had! I reccomend this fine establishment to others." });
+// console.log(reviews)
 
-
-/* Task 5: Add the following feedback to Reyna's rating - "this place is chill with really cool people, great for getting work done on weekdays"
-
+// Task 5: Add the following feedback to Reyna's rating - "this place is chill with really cool people, great for getting work done on weekdays"
+// reviews[7].feedback = "This place is chill with really cool people, great for getting work done on weekdays";
+// console.log(reviews);
 /*  Task 6: Write a function to return a review based on the index of the review in the array.
 
  Your function should take two arguments:
@@ -70,10 +72,11 @@ and should return a string in the format `{name} gave the restaurant a {rating},
  * it will return `Daniela gave the restaurant a 5 star review and their feedback was: Beautiful atmosphere and wonderful vegan options!`
 */
 function getReviewByIndex(reviews, index) {
-    /* code here */
+    if (reviews[index] === []) {
+        return inxex[]
+    }
 }
-
-
+console.log(index[.feedback]);
 /* Task 7: Write a function to get information about the most recent review called `getLastReview`
 
 getLastReview should accept:
@@ -86,7 +89,6 @@ For example, if getLastReview is invoked passing the reviews array it will retur
 function getLastReview( /* code here */ ) {
     /* code here */
 }
-
 
 ///////////////🍔☕️🍽 STRETCH🍔☕️🍽////////////////////
 
